@@ -64,6 +64,7 @@ img {
 
 .titleActivites {
   font-family: "Unkempt", cursive;
+  font-weight: bold;
 }
 
 .activitiesGrid {
@@ -86,7 +87,7 @@ img {
 }
 
 .oneActv:hover {
-  color: #001f54;
+  color: #1282a2;
 }
 
 .actvDescrip {
@@ -94,17 +95,18 @@ img {
 }
 
 .thirdSection { 
-  padding: 2em 0;
+  padding: 3em 0 4em;
 }
 
 .tourGuide {
-  padding: 1em 1.25em;
+  padding: em 1.25em;
   display: flex;
   background-color: #001f54;
   width: 50%;
   margin: 0 auto;
   color: #fefcfb;
   border-radius: 3.5%;
+  border-bottom: 6px solid #1282a2;
 }
 
 .tourGuide img {
@@ -121,4 +123,9 @@ img {
 
 .touGuideTitle {
   font-family: "Unkempt", cursive;
+}
+
+footer {
+  border-top: 1px solid #001f54;
+  font-size: 1.25em;
 }
