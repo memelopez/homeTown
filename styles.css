@@ -2,4 +2,123 @@
 body {
   margin: 0;
   text-align: center;
+  background-color: #fefcfb;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.hero {
+  height: 500px;
+  width: 100%;
+  background-image: url("./images/teg1-small.jpg");
+  background-size: cover;
+  padding-top: 3em;
+  color: #fefcfb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (width >= 900px) {
+  .mainContainer {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .hero {
+    background-size: contain;
+  }
+}
+
+.title {
+  background-color: #034078;
+  /* width: 30%; */
+  padding: 0.25em 0.5em;
+  border-radius: 0.30em;
+  font-family: "Unkempt", cursive;
+}
+
+.subtitle {
+  background-color: #1282a2;
+  /*width: 45%; */
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.activities {
+  width: 100%;
+  /* height: 600px; */
+  background: linear-gradient(#1282a2, #034078);
+  padding-top: 3.5em;
+  color: #fefcfb;
+}
+
+.titleActivites {
+  font-family: "Unkempt", cursive;
+}
+
+.activitiesGrid {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.5em;
+}
+
+.activitiesGrid img {
+  width: 150px;
+  height: 150px;
+  /* height: 165px; */
+  border-radius: 50%;
+  padding-bottom: 2.5em;
+}
+
+.oneActv {
+  padding: 1em 0.35em;
+  flex-grow: 1;
+}
+
+.oneActv:hover {
+  color: #001f54;
+}
+
+.actvDescrip {
+  padding: 0.5em 2.45em;
+}
+
+.thirdSection { 
+  padding: 2em 0;
+}
+
+.tourGuide {
+  padding: 1em 1.25em;
+  display: flex;
+  background-color: #001f54;
+  width: 50%;
+  margin: 0 auto;
+  color: #fefcfb;
+  border-radius: 3.5%;
+}
+
+.tourGuide img {
+  width: 35%;
+  border-radius: 3.25%;
+}
+
+.tourGuideInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5em 1em;
+} 
+
+.touGuideTitle {
+  font-family: "Unkempt", cursive;
 }
